@@ -102,12 +102,12 @@ int main()
 
     /// INSERARE
 	root = inserare(root, 50); 
-	inserare(root, 30); 
-	inserare(root, 20); 
+	inserare(root, 33); 
+	inserare(root, 21); 
 	inserare(root, 40); 
-	inserare(root, 70); 
-	inserare(root, 60); 
-	inserare(root, 80); 
+	inserare(root, 76); 
+	inserare(root, 61);     
+	inserare(root, 89); 
 
     /// AFISARE
 	afis(root); 
@@ -125,7 +125,6 @@ int main()
 
     /// Afisare maximum
     cout<<gaseste_max(root);
-
 
     /// Stergere Elememt
     deleteNode(root,40);
